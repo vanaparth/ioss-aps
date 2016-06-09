@@ -1,0 +1,9 @@
+ts:
+
+  # @see https://github.pie.apple.com/iossys-devops/pull-request-creator#the-appyml
+  approvals:
+    number_required: 1
+    team: approvers
+    exempt:
+      creator:
+        - iautobot
